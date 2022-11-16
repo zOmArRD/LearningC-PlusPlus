@@ -4,12 +4,9 @@
 using namespace std;
 
 int main() {
-    string firstName;
-    string lastName;
-    cout << "Enter your first name: " << endl;
-    cin >> firstName; // get user input from the keyboard
-    cout << "Enter your last name: " << endl;
-    cin >> lastName; // get user input from the keyboard
-    cout << "Your name is: " << firstName << " " << lastName << endl;
+    string full_name;
+    cout << "Type your full name: " << endl;
+    getline(cin, full_name);
+    cout << "Your name is: " << full_name << endl;
     return 0;
 }
